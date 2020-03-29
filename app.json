@@ -7,10 +7,6 @@
     "postdeploy": "python manage.py migrate"
   },
   "logo": "https://colossus.simpleisbetterthancomplex.com/static/img/favicon.png",
-  "addons": [
-    "heroku-postgresql:hobby-dev",
-    "mailgun:starter"
-  ],
   "env": {
     "DEFAULT_FROM_EMAIL": {
       "description": "Default email address to send emails from the application. Please note that you need to do further domain validation via Mailgun App to enable email sending from this installation.",
